@@ -1,11 +1,12 @@
+#
+# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gauguin)
-
+ifeq ($(TARGET_DEVICE),rtd2851d)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
-
-# Needed by xiaomi.eu
-BOARD_RECOVERY_IMAGE_PREPARE := \
-    sed -i 's/ro.build.date.utc=.*/ro.build.date.utc=0/' $(TARGET_RECOVERY_ROOT_OUT)/prop.default;
-
 endif

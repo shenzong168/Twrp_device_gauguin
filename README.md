@@ -1,9 +1,10 @@
-# android_device_xiaomi_gauguin
+# Android device tree for Skyworth 7R301_G22 (rtd2851d)
 
-Path:   device/xiaomi/gauguin
-
-Device tree for Xiaomi 
-
-    gauguin:      Xiaomi Mi 10T Lite
-    
-    gauguin-pro:  Redmi Note 9 Pro 5G
+```
+#
+# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
